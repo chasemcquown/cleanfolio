@@ -35,6 +35,9 @@
     color: #02030E;
   }
 
+
+  /* NAV STYLES */
+
   .navigation {
     width: 100%;
     display: flex;
@@ -52,12 +55,15 @@
     flex-direction: row;
     justify-content: space-between;
     font-family: 'Hydrella';
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .nav-items a {
     color: #02030E;
   }
+
+
+  /* HERO STYLES */
 
   .hero {
     display: flex;
@@ -90,7 +96,7 @@
     align-items: center;
     color: #FDFDFF;
     font-family: 'Hydrella';
-    font-size: 22px;
+    font-size: 18px;
     gap: 10px;
     background: var(--Dark-Blue, #02030E);
     transition: 0.3s;
@@ -100,9 +106,8 @@
     background: var(--Blue, #1032E9);
   }
 
-  .project {
-    width: 100%;
-  }
+
+  /* PROJECT STYLES */
 
   #mahi-tackle {
     background-image: url(assets/images/Mahi\ Tackle.png);
@@ -132,24 +137,45 @@
     background-size: cover;
   }
 
-  .project-content {
-    padding-left: 150px;
-    padding-top: 99px;
-    padding-bottom: 99px;
+  .content-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 8rem;
+    padding-top: 95px;
+    padding-bottom: 95px;
+    background-color: #1032E9;
+    transition: .5s ease;
+    opacity: 0;
   }
 
-  .project-content h2, .project-content p {
-    font-family: 'Hydrella';
+  .content-wrapper:hover {
+    opacity: .8;
+  }
+
+  .left-content {
+    width: 35%;
     color: #FDFDFF;
+    font-family: 'Hydrella';
   }
 
-  .project-content h2 {
-    font-size: 40px;
+  .left-content h3 {
+    font-size: 30px;
   }
 
-  .project-content p {
-    font-size: 24px;
+  .left-content p {
+    font-size: 20px;
   }
+
+  .right-content {
+    width: 45%;
+    color: #FDFDFF;
+    font-family: 'Raleway';
+    font-size: 16px;
+  }
+
+  /* BOTTOM CTA STYLES */
 
   .reach-out {
     display: flex;
@@ -174,6 +200,8 @@
     font-size: 18px;
   }
 
+
+  /* FOOTER STYLES */
 
   .footer {
     display: flex;
