@@ -6,23 +6,121 @@
     text-decoration: none;
   }
 
+  @font-face {
+    font-family: 'Hydrella';
+    src: url(assets/type/Hydrella\ ExtraBold.ttf);
+  }
+
+  @font-face {
+    font-family: 'Raleway-Regular';
+    src: url(assets/type/Raleway-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: 'Raleway-Light';
+    src: url(assets/type/Raleway-Light.ttf);
+  }
+
+  @font-face {
+    font-family: 'Raleway-Bold';
+    src: url(assets/type/Raleway-Bold.ttf);
+  }
+
   html {
     scroll-behavior: smooth;
   }
 
   body {
     background-color: #FDFDFF;
+    color: #02030E;
   }
 
   .navigation {
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    padding-top: 2rem;
     align-items: center;
     padding-left: 7rem;
     padding-right: 7rem;
+    margin-bottom: 122px;
   }
 
   .nav-items {
+    width: 45%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Hydrella';
+    font-size: 18px;
+  }
+
+  .nav-items a {
+    color: #02030E;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: center;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    margin-bottom: 174px;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 742px;
+    font-family: 'Raleway-Regular';
+  }
+
+  .hero-content h1 {
+    font-family: 'Hydrella';
+    font-size: 96px;
+  }
+
+  .hero-content a {
+    margin-top: 30px;
+  }
+
+  .button {
+    display: inline-flex;
+    padding: 15px 22px;
+    justify-content: center;
+    align-items: center;
+    color: #FDFDFF;
+    font-family: 'Hydrella';
+    font-size: 22px;
+    gap: 10px;
+    background: var(--Dark-Blue, #02030E);
+    transition: 0.3s;
+  }
+
+  .button:hover {
+    background: var(--Blue, #1032E9);
+  }
+
+  .mahi-tackle {
+    background-image: url(assets/images/Mahi\ Tackle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .mahi-tackle-content {
+    padding-left: 192px;
+    padding-top: 99px;
+    padding-bottom: 99px;
+  }
+
+  .mahi-tackle-content h2, .mahi-tackle-content p {
+    font-family: 'Hydrella';
+    color: #FDFDFF;
+  }
+
+  .mahi-tackle-content h2 {
+    font-size: 40px;
+  }
+
+  .mahi-tackle-content p {
+    font-size: 24px;
   }
