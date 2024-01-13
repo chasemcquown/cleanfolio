@@ -300,3 +300,35 @@
     color: #C7C7CE;
   }
 
+
+  /* MEDIA QUERIES */
+
+  @media screen and (max-width: 767px) {
+
+  /* MOBILE NAV STYLES */
+
+    .navigation {
+     display: none;
+    }
+
+
+    .hero-content h1 {
+      font-size: 60px;
+    }
+
+
+    /* MOBILE REACH OUT SECTION STYLES */
+
+    .reach-out {
+      flex-direction: column;
+    }
+
+    .form-top {
+      flex-direction: column;
+    }
+
+    .form-right {
+      margin-left: 17px;
+    }
+  }
+
