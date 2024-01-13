@@ -305,20 +305,39 @@
 
   @media screen and (max-width: 767px) {
 
-  /* MOBILE NAV STYLES */
-
+    /* MOBILE NAV STYLES */
     .navigation {
      display: none;
     }
 
-
+    /* MOBILE HERO STYLES */
     .hero-content h1 {
       font-size: 60px;
     }
 
+    .left-content h3 {
+      font-size: 22px;
+    }
+  
+    .left-content p {
+      font-size: 18px;
+    }
+
+    /* MOBILE PROJECTS STYLES */
+    .content-wrapper {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-left: 3rem;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      background-color: #1032E9;
+      transition: .5s ease;
+      opacity: 0.8;
+    }
 
     /* MOBILE REACH OUT SECTION STYLES */
-
     .reach-out {
       flex-direction: column;
     }
@@ -328,7 +347,13 @@
     }
 
     .form-right {
+      margin-top: 20px;
       margin-left: 17px;
+    }
+
+    .email-container {
+      margin-top: 0px;
+      margin-bottom: 45px;
     }
   }
 
