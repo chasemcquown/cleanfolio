@@ -137,42 +137,49 @@
     background-size: cover;
   }
 
-  .content-wrapper {
-    width: 100%;
+  .project-wrapper {
     display: flex;
+    width: 100%;
+  }
+
+  .project-container {
+    display: flex;
+    width: 100%;
     flex-direction: row;
     align-items: center;
-    padding-left: 8rem;
-    padding-top: 95px;
-    padding-bottom: 95px;
+    padding: 5rem 8.5rem 5rem 8.5rem;
     background-color: #1032E9;
     transition: .5s ease;
     opacity: 0;
   }
 
-  .content-wrapper:hover {
+  .project-container:hover {
     opacity: .8;
   }
 
-  .left-content {
-    width: 35%;
-    color: #FDFDFF;
+  .project-left {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
     font-family: 'Hydrella';
+    color: white;
   }
 
-  .left-content h3 {
+  .project-right {
+    display: flex;
+    width: 70%;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 16px;
+    padding-left: 2.5rem;
+  }
+
+  .project-left h3 {
     font-size: 30px;
   }
 
-  .left-content p {
+  .project-left p {
     font-size: 20px;
-  }
-
-  .right-content {
-    width: 45%;
-    color: #FDFDFF;
-    font-family: 'Raleway';
-    font-size: 16px;
   }
 
   /* BOTTOM CTA STYLES */
@@ -324,18 +331,58 @@
     }
 
     /* MOBILE PROJECTS STYLES */
-    .content-wrapper {
-      width: 100%;
+    .project-wrapper {
       display: flex;
-      flex-direction: row;
+      width: 100%;
+    }
+  
+    .project-container {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
       align-items: center;
-      padding-left: 3rem;
-      padding-top: 30px;
-      padding-bottom: 30px;
+      padding: 0;
       background-color: #1032E9;
       transition: .5s ease;
-      opacity: 0.8;
+      opacity: 1;
     }
+  
+    .project-container:hover {
+      opacity: .8;
+    }
+  
+    .project-left {
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      font-family: 'Hydrella';
+      color: white;
+    }
+  
+    .project-right {
+      display: flex;
+      width: 70%;
+      color: white;
+      font-family: 'Raleway';
+      font-size: 16px;
+      padding-left: 2.5rem;
+    }
+  
+    .project-left h3 {
+      font-size: 30px;
+    }
+  
+    .project-left p {
+      font-size: 20px;
+    }
+
+    .right-content {
+      /* width: 90%; */
+      color: #FDFDFF;
+      font-family: 'Raleway';
+      font-size: 16px;
+    }
+  
 
     /* MOBILE REACH OUT SECTION STYLES */
     .reach-out {
