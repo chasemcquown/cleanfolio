@@ -1,4 +1,5 @@
-//check which page is currently active
+// DESKTOP NAV LOGIC
+
 function isActive () {
     if(window.location.href === 'file:///C:/Users/kmcqu/Desktop/cleanfolio/index.html') {
         document.querySelector(".nav-items a:nth-child(1)").style.borderBottom = '2px solid var(--Blue, #1032E9)'
@@ -28,3 +29,12 @@ function isActive () {
 }
 
 isActive()
+
+// MOBILE MENU LOGIC
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+  
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
