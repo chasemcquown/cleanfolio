@@ -337,6 +337,7 @@
   .overlay a {
     padding: 8px;
     text-decoration: none;
+    font-family: 'Hydrella';
     font-size: 30px;
     line-height: 40px;
     font-weight: 900;
@@ -346,7 +347,7 @@
   }
 
   .overlay a:hover, .overlay a:focus {
-    color: #FF5C00;
+    color: #1032E9;
   }
 
   .overlay .closebtn {
@@ -358,6 +359,14 @@
 
 
   /* MEDIA QUERIES */
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
 
   @media screen and (max-width: 767px) {
 
@@ -368,6 +377,19 @@
 
     #mobile-nav {
       display: contents;
+    }
+
+    .hamburger-holder {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      padding-top: 5%;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+
+    .hamburger-holder img {
+      width: 20%;
     }
 
     /* MOBILE HERO STYLES */
