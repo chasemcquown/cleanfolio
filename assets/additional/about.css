@@ -77,10 +77,6 @@
     margin-bottom: 122px;
   }
 
-  .about-container img {
-    width: 40%;
-  }
-
   .about-left {
     display: flex;
     flex-direction: column;
@@ -95,6 +91,44 @@
   .about-left p {
     font-family: 'Raleway';
     font-size: 16px;
+  }
+
+  .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-image: url(../images/IMG_8030\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .img-container h3 {
+    font-family: 'Hydrella';
+  }
+
+  .img-container p {
+    font-family: 'Raleway';
+    font-size: 16px;
+  }
+
+  .about-img {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: #1032E9;
+    transition: .5s ease;
+    opacity: 0;
+  }
+
+  .about-img:hover {
+    opacity: .9;
   }
 
   /* BOTTOM CTA STYLES */
