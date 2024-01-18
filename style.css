@@ -381,11 +381,17 @@
 
     .hamburger-holder {
       display: flex;
-      justify-content: flex-end;
+      justify-content: space-between;
       width: 100%;
       padding-top: 5%;
       padding-left: 10%;
       padding-right: 10%;
+    }
+
+    #mobile-menu {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
     }
 
     .hamburger-holder img {
