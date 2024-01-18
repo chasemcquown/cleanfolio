@@ -331,41 +331,18 @@
     }
 
     /* MOBILE PROJECTS STYLES */
-    .project-wrapper {
-      display: flex;
-      width: 100%;
-    }
-  
     .project-container {
-      display: flex;
-      width: 100%;
-      flex-direction: column;
-      align-items: center;
-      padding: 0;
-      background-color: #1032E9;
-      transition: .5s ease;
-      opacity: 1;
-    }
-  
-    .project-container:hover {
-      opacity: .8;
+      padding: 2rem 1rem 2rem 1rem;
     }
   
     .project-left {
-      display: flex;
-      flex-direction: column;
-      width: 30%;
-      font-family: 'Hydrella';
-      color: white;
+      width: 90%;
+      padding-bottom: 0.5rem;
     }
   
     .project-right {
-      display: flex;
-      width: 70%;
-      color: white;
-      font-family: 'Raleway';
-      font-size: 16px;
-      padding-left: 2.5rem;
+      width: 90%;
+      padding-left: 0rem;
     }
   
     .project-left h3 {
@@ -377,7 +354,6 @@
     }
 
     .right-content {
-      /* width: 90%; */
       color: #FDFDFF;
       font-family: 'Raleway';
       font-size: 16px;
@@ -386,7 +362,14 @@
 
     /* MOBILE REACH OUT SECTION STYLES */
     .reach-out {
+      display: flex;
       flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      margin-top: 7rem;
+      margin-bottom: 7rem;
     }
 
     .form-top {
@@ -395,12 +378,61 @@
 
     .form-right {
       margin-top: 20px;
-      margin-left: 17px;
+      margin-left: 0px;
+    }
+    
+    .form-bottom input {
+      width: 90%;
+    }  
+
+    .name-container input, .email-container input {
+      width: 90%
+    }
+
+    .name-container {
+      margin-right: 0px;
     }
 
     .email-container {
       margin-top: 0px;
       margin-bottom: 45px;
+    }
+
+
+    /* MOBILE FOOTER STYLES */
+    .footer {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      background-color: #02030E;
+      padding-left: 0rem;
+      padding-right: 0rem;
+      padding-top: 32px;
+      padding-bottom: 32px;
+    }
+  
+    .footer-text {
+      padding-left: 0px;
+    }
+  
+    .footer-left {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .footer-right a:nth-child(2) {
+      margin-left: 15px;
+    }
+  
+    .footer-icons {
+      color: white;
+      transition: 0.3s;
+    }
+  
+    .footer-icons:hover {
+      color: #C7C7CE;
     }
   }
 
