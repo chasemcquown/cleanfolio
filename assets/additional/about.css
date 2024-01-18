@@ -78,13 +78,14 @@
   }
 
   .about-container img {
-    width: 30%;
+    width: 40%;
   }
 
   .about-left {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 60%;
+    margin-right: 5%
   }
 
   .about-left h1 {
@@ -309,64 +310,19 @@
       width: 17%;
     }
 
-    /* MOBILE HERO STYLES */
-    .hero {
-      display: flex;
-      justify-content: center;
-      padding-left: 2rem;
-      padding-right: 2rem;
-      margin-bottom: 7rem;
+    /* MOBILE ABOUT STYLES*/
+    .about-container {
+        flex-direction: column;
     }
   
-    .hero-content {
-      display: flex;
-      flex-direction: column;
-      max-width: 742px;
-      font-family: 'Raleway-Regular';
-    }
-
-    .hero-content h1 {
-      font-size: 60px;
-      line-height: 90%;
-    }
-
-    .left-content h3 {
-      font-size: 22px;
-    }
-  
-    .left-content p {
-      font-size: 18px;
-    }
-
-    /* MOBILE PROJECTS STYLES */
-    .project-container {
-      padding: 2rem 1rem 2rem 1rem;
-    }
-  
-    .project-left {
-      width: 90%;
-      padding-bottom: 0.5rem;
-    }
-  
-    .project-right {
-      width: 90%;
-      padding-left: 0rem;
-    }
-  
-    .project-left h3 {
-      font-size: 30px;
-    }
-  
-    .project-left p {
-      font-size: 20px;
-    }
-
-    .right-content {
-      color: #FDFDFF;
-      font-family: 'Raleway';
-      font-size: 16px;
-    }
-  
+    .about-container img {
+        width: 100%;
+      }
+    
+    .about-left {
+        width: 100%;
+        margin-bottom: 5%;
+      }
 
     /* MOBILE REACH OUT SECTION STYLES */
     .reach-out {
