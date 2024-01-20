@@ -22,7 +22,7 @@
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
-    margin-bottom: 122px;
+    margin-bottom: 17%;
   }
 
   .about-left {
@@ -63,8 +63,8 @@
 
   .about-img {
     display: flex;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
     justify-content: center;
     flex-direction: column;
     width: 100%;
