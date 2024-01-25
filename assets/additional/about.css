@@ -22,7 +22,7 @@
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
-    margin-bottom: 17%;
+    margin-bottom: 130px;
   }
 
   .about-left {
@@ -55,6 +55,8 @@
 
   .img-container h3 {
     font-family: 'Hydrella';
+    margin-bottom: 4%;
+    text-decoration: underline;
   }
 
   .img-container p {
@@ -64,8 +66,7 @@
 
   .about-img {
     display: flex;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding: 15%;
     justify-content: center;
     flex-direction: column;
     width: 100%;
@@ -77,6 +78,46 @@
   }
 
   .about-img:hover {
+    opacity: .9;
+  }
+
+  /* FORM IMAGE */
+  .form-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-image: url(../images/spotty.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .form-img-container h3 {
+    font-family: 'Hydrella';
+    margin-bottom: 4%;
+    text-decoration: underline;
+  }
+
+  .form-img-container p {
+    font-family: 'Raleway';
+    font-size: 16px;
+    margin-bottom: 3%;
+  }
+
+  .form-img {
+    display: flex;
+    padding: 18%;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    background-color: #1032E9;
+    transition: .5s ease;
+    opacity: 0;
+  }
+
+  .form-img:hover {
     opacity: .9;
   }
 
