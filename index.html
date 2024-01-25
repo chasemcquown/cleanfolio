@@ -16,7 +16,7 @@
         <div class="nav-items">
             <a href="">HOME</a>
             <a href="pages/about.html">ABOUT</a>
-            <a href="">CONTACT</a>
+            <a href="#reach-out">CONTACT</a>
             <a href="assets/images/Chase McQuown's Resume.pdf" target="_blank">RESUME</a>
         </div>
     </div>
@@ -93,7 +93,7 @@
         </div>
     </a>
 
-    <a href="">
+    <a href="https://chasemcquown.github.io/simple-wx-v2/" target="_blank">
         <div class="project-wrapper" id="simple-wx">
             <div class="project-container">
                 <div class="project-left">
@@ -108,26 +108,27 @@
     </a>
 
     <!-- REACH OUT SECTION -->
-    <div class="reach-out">
+    <div class="reach-out" id="reach-out">
         <img src="assets/images/spotty.png" alt="">
         <div class="form-right">
             <h3>Drop Me A Line.</h3>
             <p>Don't hesitate to reach out with any questions or concerns; I'd love to hear from you!</p>
             <div class="form-top">
                 <div class="name-container">
-                    <label for="">NAME</label>
-                    <input type="text" placeholder="John Doe">
+                    <label for="">Name</label>
+                    <input type="text" placeholder="John Doe" id="subName">
                 </div>
                 <div class="email-container">
-                    <label for="">EMAIL</label>
-                    <input type="text" placeholder="johndoe@email.com">
+                    <label for="">Email</label>
+                    <input type="text" placeholder="johndoe@email.com" id="subEmail">
                 </div>
             </div>
             <div class="form-bottom">
-                <label for="">MESSAGE</label>
-                <input type="text" placeholder="What's up!">
+                <label for="">Message</label>
+                <input type="text" placeholder="What's up!" id="subMessage">
+                <p id="successMessage"></p>
             </div>
-            <a href="">
+            <a href="" id="formButton">
                 <div class="button">send</div>
             </a>
         </div>

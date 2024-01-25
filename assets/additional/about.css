@@ -34,6 +34,7 @@
 
   .about-left h1 {
     font-family: 'Hydrella';
+    font-size: 30px;
   }
 
   .about-left p {
@@ -46,7 +47,7 @@
     justify-content: center;
     align-items: center;
     width: 40%;
-    background-image: url(../images/IMG_8030\ \(1\).jpg);
+    background-image: url(../images/umbrella.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

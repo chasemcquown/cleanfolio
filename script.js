@@ -43,8 +43,40 @@ isActive()
 // MOBILE MENU LOGIC
 function openNav() {
     document.getElementById("myNav").style.width = "100%";
-  }
+}
   
-  function closeNav() {
+function closeNav() {
     document.getElementById("myNav").style.width = "0%";
-  }
+}
+
+
+// CONTACT FORM LOGIC
+const formButton = document.getElementById('formButton')
+const successMessage = document.getElementById('successMessage')
+
+successMessage.style.fontSize = '14px';
+successMessage.style.marginTop = '4%';
+successMessage.style.color = '#299C2E';
+
+let subName = '';
+let subEmail = '';
+let subMessage = '';
+
+// data sender
+function sendData() {
+
+    //stop reload
+    event.preventDefault();
+    
+    //collect values
+    subName = document.getElementById('subName').value
+    subEmail = document.getElementById('subEmail').value
+    subMessage = document.getElementById('subMessage').value
+
+    document.getElementById('successMessage').innerHTML = 'Thanks for reaching out ' + subName + '!' + ' I will get back to you as soon as I can.';
+}
+
+formButton.addEventListener('click', sendData)
+
+
+

@@ -214,7 +214,8 @@
   .form-right h3 {
     color: #02030E;
     font-family: 'Hydrella';
-    font-size: 45px;
+    font-size: 30px;
+    margin-bottom: 2%;
   }
 
   .form-right p {
@@ -242,7 +243,7 @@
   input {
     padding: 5px;
     color: #02030E;
-    font-family: 'Raleway-Bold';
+    font-family: 'Raleway';
     font-size: 16px;
     outline: 0;
     border-width: 0 0 1px;
