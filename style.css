@@ -456,6 +456,10 @@
       background-image: url(assets/images/Mahi\ -\ mobile.png);
     }
 
+    #simple-wx {
+      background-image: url(assets/images/Simple\ WX\ -\ mobile.png);
+    }
+
     .project-container {
       padding: 2rem 1rem 2rem 1rem;
     }
