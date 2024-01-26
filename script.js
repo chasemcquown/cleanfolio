@@ -1,6 +1,6 @@
 // DESKTOP NAV LOGIC
 function isActive () {
-    if(window.location.href === 'https://chasemcquown.github.io/cleanfolio/') {
+    if(window.location.href === 'https://chasemcquown.github.io/cleanfolio/index.html') {
         document.querySelector(".nav-items a:nth-child(1)").style.borderBottom = '2px solid var(--Blue, #1032E9)'
         document.querySelector(".nav-items a:nth-child(2)").style.color = '#9A9A9F'
         document.querySelector(".nav-items a:nth-child(3)").style.color = '#9A9A9F'
@@ -13,7 +13,7 @@ function isActive () {
         document.querySelector(".nav-items a:nth-child(3)").addEventListener('mouseover', () => document.querySelector(".nav-items a:nth-child(3)").style.transition = '0.3s')
         document.querySelector(".nav-items a:nth-child(3)").addEventListener('mouseleave', () => document.querySelector(".nav-items a:nth-child(3)").style.color = '#9A9A9F')
 
-    } if(window.location.href === 'https://chasemcquown.github.io/cleanfolio/pages/about') {
+    } if(window.location.href === 'https://chasemcquown.github.io/cleanfolio/pages/about.html') {
         document.querySelector(".nav-items a:nth-child(1)").style.color = '#9A9A9F'
         document.querySelector(".nav-items a:nth-child(2)").style.borderBottom = '2px solid var(--Blue, #1032E9)'
         document.querySelector(".nav-items a:nth-child(3)").style.color = '#9A9A9F'
