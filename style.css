@@ -570,5 +570,10 @@
     .footer-icons:hover {
       color: #C7C7CE;
     }
+
+    /* MOBILE FONTS */
+    .project-right p, .form-right p, input, .footer-text p, .about-left p, .about-img p {
+      font-family: 'Raleway';
+    }
   }
 
